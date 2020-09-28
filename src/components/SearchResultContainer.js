@@ -127,9 +127,11 @@ class SearchResultContainer extends Component {
           </div>
         </div>
 
-        <div className="row">
-          {/* <div > */}
+
           <table className="table">
+            <tbody>
+
+
             <tr>
               <th scope="col">Photo</th>
               <th>First Name</th>
@@ -141,6 +143,10 @@ class SearchResultContainer extends Component {
               <th scope="col">Email</th>
               <th scope="col">Phone</th>
             </tr>
+
+
+
+            </tbody>
 
             {/* { [...this.state.result].sort(this.sortTypes[this.state.currentSort].fn).map((item) =>  */}
             {/* {this.state.result.length > 0 ? (
@@ -172,7 +178,7 @@ class SearchResultContainer extends Component {
         </div>
 
 
-      </div>
+    
     );
   }
 }
