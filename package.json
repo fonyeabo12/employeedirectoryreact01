@@ -2,6 +2,11 @@
   "name": "employeedirectoryreact01",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "yarn": "1.22.5",
+    "node": "14.9.0"
+  },
+  "homepage": "http://fonyeabo12.github.io/employeedirectoryreact01",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
